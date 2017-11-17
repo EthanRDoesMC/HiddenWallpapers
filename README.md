@@ -1,3 +1,11 @@
+*Modified by EthanRDoesMC*
+
+DynamiX
+================
+
+Ports the iPhone X Dynamic Wallpapers to older devices - *safely*.
+
+
 HiddenWallpapers
 ================
 
