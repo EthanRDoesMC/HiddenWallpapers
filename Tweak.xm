@@ -12,13 +12,14 @@ static NSArray * _logos_meta_method$_ungrouped$Bokeh$presetWallpaperOptions(Clas
             @{@"bokehVariant": @"BokehGradient", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehGradient_thumb", @"thumbnailImageName": @"BokehGradient_thumb"},
             @{@"bokehVariant": @"BokehGradientSilver", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehGradientSilver_thumb", @"thumbnailImageName": @"BokehGradientSilver_thumb"},
             @{@"bokehVariant": @"Blue_T_v01", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehBlue_T_thumb", @"thumbnailImageName": @"BokehBlue_T_thumb"},
+            @{@"bokehVariant": @"XRainbow", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehXRainbow_thumb", @"thumbnailImageName": @"BokehXRainbow_thumb"}, 
             @{@"bokehVariant": @"Green_T_v01", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehGreen_T_thumb", @"thumbnailImageName": @"BokehGreen_T_thumb"},
             @{@"bokehVariant": @"Pink_T_v01", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehPink_T_thumb", @"thumbnailImageName": @"BokehPink_T_thumb"},
             @{@"bokehVariant": @"Red_T_v01", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehRed_T_thumb", @"thumbnailImageName": @"BokehRed_T_thumb"},
-			@{@"bokehVariant": @"Rainbow", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehRainbow_thumb", @"thumbnailImageName": @"BokehRainbow_thumb"}]; //Set "bokehVariant" to any undefined string to get "Rainbow" effect
+	    @{@"bokehVariant": @"Rainbow", @"kSBUIMagicWallpaperThumbnailNameKey": @"BokehRainbow_thumb", @"thumbnailImageName": @"BokehRainbow_thumb"}]; //Set "bokehVariant" to any undefined string to get "Rainbow" effect
 }
 
-
+//chances are it wont work but i have the fact that they have no backgrounds going for me
 %hook NSBundle
 + (NSBundle *)bundleWithPath:(NSString *)path
 {
